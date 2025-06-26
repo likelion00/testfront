@@ -12,7 +12,7 @@ const SignupPage = () => {
   const [pw, setPW] = useState();
   const [name, setName] = useState();
 
-  const BASE_URL = process.env.REACT_APP_BASE_URL;
+  const BASE_URL = import.meta.env.VITE_BASE_URL;
 
   //---------------------------------------
 

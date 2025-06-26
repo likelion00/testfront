@@ -11,7 +11,7 @@ const LoginPage = () => {
   const [id, setID] = useState("");
   const [pw, setPW] = useState("");
 
-  const BASE_URL = process.env.REACT_APP_BASE_URL;
+  const BASE_URL = import.meta.env.VITE_BASE_URL;
 
   //---------------------------------------
 

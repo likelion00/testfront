@@ -12,7 +12,7 @@ const MainPage = () => {
   // 렌더링 상태를 나타낼 state
   const [render, setRender] = useState(1);
 
-  const BASE_URL = process.env.REACT_APP_BASE_URL;
+  const BASE_URL = import.meta.env.VITE_BASE_URL;
 
   //---------------------------------------
 

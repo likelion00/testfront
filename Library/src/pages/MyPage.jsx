@@ -28,7 +28,7 @@ const MyPage = () => {
   const [likedBookList, setLikedBookList] = useState([]);
   const [render, setRender] = useState(1);
 
-  const BASE_URL = process.env.REACT_APP_BASE_URL;
+  const BASE_URL = import.meta.env.VITE_BASE_URL;
 
   // 문제 7) 로컬 스토리지에서 token 값을 받아와 token 변수에 할당하기
   const token = localStorage.getItem("token");
